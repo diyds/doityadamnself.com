@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>DIYDS Admin — Guide Manager</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --lime:#c5e835;
+  --black:#0d0d0d;
+  --white:#f5f2ee;
+  --gray:#1e1e1e;
+  --gray2:#2e2e2e;
+  --gray3:#444;
+  --muted:#888;
+  --border:#333;
+  --green:#2a6;
+  --red:#e03030;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--black);color:var(--white);font-family:'DM Sans',sans-serif;min-height:100vh;}
+
+header{border-bottom:2px solid var(--lime);padding:20px 40px;display:flex;align-items:baseline;gap:16px;background:var(--black);position:sticky;top:0;z-index:100;}
+.logo{font-family:'Archivo Black',sans-serif;font-size:1.8rem;color:var(--lime);letter-spacing:2px;font-style:italic;}
+.logo span{color:var(--white);}
+.tagline{font-family:'DM Mono',monospace;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;}
+.header-right{margin-left:auto;display:flex;align-items:center;gap:12px;}
+.status-dot{font-family:'DM Mono',monospace;font-size:11px;padding:4px 10px;border-radius:4px;border:1px solid var(--border);color:var(--muted);}
+.status-dot.connected{border-color:var(--green);color:#4d4;}
+
+main{display:grid;grid-template-columns:420px 1fr;min-height:calc(100vh - 65px);}
+
+/* LEFT PANEL */
+.left{background:var(--gray);border-right:1px solid var(--border);padding:32px 28px;display:flex;flex-direction:column;gap:24px;overflow-y:auto;}
+
+.section-label{font-family:'DM Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);margin-bottom:8px;display:block;}
+
+.token-wrap{position:relative;}
+.token-wrap input{width:100%;background:var(--black);border:1px solid var(--border);color:var(--white);font-family:'DM Mono',monospace;font-size:12px;padding:10px 40px 10px 12px;border-radius:6px;outline:none;transition:border-color .2s;}
+.token-wrap input:focus{border-color:var(--lime);}
+.toggle-vis{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--muted);cursor:pointer;font-size:16px;}
+.toggle-vis:hover{color:var(--white);}
+
+input[type=text],input[type=number],textarea,select{
+  width:100%;background:var(--black);border:1px solid var(--border);
+  color:var(--white);font-family:'DM Sans',sans-serif;font-size:14px;
+  padding:10px 12px;border-radius:6px;outline:none;transition:border-color .2s;
+}
+input:focus,textarea:focus,select:focus{border-color:var(--lime);}
+textarea{resize:vertical;min-height:90px;line-height:1.5;}
+select option{background:var(--gray);}
+
+.input-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+
+.tag-input-wrap{display:flex;flex-wrap:wrap;gap:6px;background:var(--black);border:1px solid var(--border);border-radius:6px;padding:8px;min-height:44px;cursor:text;}
+.tag-input-wrap:focus-within{border-color:var(--lime);}
+.tag{display:flex;align-items:center;gap:4px;background:var(--gray2);border:1px solid var(--border);border-radius:4px;padding:3px 8px;font-family:'DM Mono',monospace;font-size:11px;color:var(--muted);}
+.tag button{background:none;border:none;color:var(--muted);cursor:pointer;font-size:14px;line-height:1;padding:0 2px;}
+.tag button:hover{color:var(--red);}
+.tag-input{background:none;border:none;color:var(--white);font-family:'DM Mono',monospace;font-size:11px;outline:none;min-width:80px;flex:1;}
+
+.add-btn{
+  width:100%;background:var(--lime);color:var(--black);
+  font-family:'Archivo Black',sans-serif;font-size:1.2rem;
+  letter-spacing:2px;padding:16px;border:none;border-radius:6px;
+  cursor:pointer;transition:all .15s;
+}
+.add-btn:hover{background:#d4f040;transform:translateY(-1px);}
+.add-btn:disabled{background:var(--gray2);color:var(--muted);cursor:not-allowed;transform:none;}
+
+.secondary-btn{
+  width:100%;background:none;color:var(--white);
+  font-family:'DM Mono',monospace;font-size:12px;
+  padding:12px;border:1px solid var(--border);border-radius:6px;
+  cursor:pointer;transition:all .15s;text-transform:uppercase;letter-spacing:1px;
+}
+.secondary-btn:hover{border-color:var(--lime);color:var(--lime);}
+
+/* RIGHT PANEL */
+.right{display:flex;flex-direction:column;}
+.right-toolbar{background:var(--gray);border-bottom:1px solid var(--border);padding:12px 28px;display:flex;align-items:center;gap:12px;}
+.toolbar-label{font-family:'DM Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);margin-right:auto;}
+.filter-select{background:var(--black);border:1px solid var(--border);color:var(--white);font-family:'DM Mono',monospace;font-size:11px;padding:6px 10px;border-radius:4px;outline:none;cursor:pointer;}
+.tool-btn{background:none;border:1px solid var(--border);color:var(--white);font-family:'DM Mono',monospace;font-size:11px;padding:6px 14px;border-radius:4px;cursor:pointer;transition:all .15s;}
+.tool-btn:hover{border-color:var(--lime);color:var(--lime);}
+.tool-btn.danger:hover{border-color:var(--red);color:#f66;}
+
+.guides-list{flex:1;overflow-y:auto;padding:28px;}
+
+.empty-state{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:16px;color:var(--gray3);text-align:center;}
+.empty-icon{font-size:48px;opacity:.3;}
+.empty-state h2{font-family:'Archivo Black',sans-serif;font-size:1.6rem;color:var(--gray3);letter-spacing:2px;}
+.empty-state p{font-size:14px;color:var(--muted);max-width:320px;line-height:1.6;}
+
+/* GUIDE CARDS */
+.guide-item{
+  background:var(--gray);border:1px solid var(--border);border-radius:8px;
+  padding:20px;margin-bottom:12px;display:flex;align-items:start;gap:16px;
+  transition:border-color .15s;
+}
+.guide-item:hover{border-color:var(--lime);}
+.guide-item-info{flex:1;}
+.guide-item-title{font-family:'Archivo Black',sans-serif;font-size:1rem;color:var(--white);margin-bottom:6px;}
+.guide-item-desc{font-size:13px;color:var(--muted);line-height:1.5;margin-bottom:10px;}
+.guide-item-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;}
+.cat-badge{font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:1px;padding:3px 8px;border-radius:3px;border:1px solid var(--border);color:var(--muted);}
+.cat-badge.business{border-color:#4d4;color:#4d4;}
+.cat-badge.paperwork{border-color:#4af;color:#4af;}
+.cat-badge.money{border-color:#fa4;color:#fa4;}
+.cat-badge.legal{border-color:#f64;color:#f64;}
+.cat-badge.transport{border-color:#c4f;color:#c4f;}
+.cat-badge.bundles{border-color:var(--lime);color:var(--lime);}
+.price-badge{font-family:'DM Mono',monospace;font-size:12px;color:var(--lime);font-weight:500;}
+.tag-badge{font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;background:var(--gray2);padding:2px 6px;border-radius:3px;color:var(--muted);}
+.guide-item-actions{display:flex;flex-direction:column;gap:8px;flex-shrink:0;}
+.item-btn{background:none;border:1px solid var(--border);color:var(--muted);font-family:'DM Mono',monospace;font-size:10px;padding:5px 10px;border-radius:4px;cursor:pointer;transition:all .15s;text-transform:uppercase;letter-spacing:1px;white-space:nowrap;}
+.item-btn:hover{border-color:var(--lime);color:var(--lime);}
+.item-btn.del:hover{border-color:var(--red);color:#f66;}
+
+/* TOAST */
+.toast{position:fixed;bottom:24px;right:24px;background:var(--gray2);border:1px solid var(--border);color:var(--white);font-family:'DM Mono',monospace;font-size:12px;padding:12px 20px;border-radius:6px;opacity:0;transform:translateY(10px);transition:all .25s;pointer-events:none;z-index:999;}
+.toast.show{opacity:1;transform:translateY(0);}
+.toast.success{border-color:var(--green);color:#4d4;}
+.toast.error{border-color:var(--red);color:#f66;}
+
+/* SPINNER */
+.spinner{display:inline-block;width:14px;height:14px;border:2px solid var(--black);border-top-color:transparent;border-radius:50%;animation:spin .7s linear infinite;vertical-align:middle;margin-right:6px;}
+@keyframes spin{to{transform:rotate(360deg);}}
+
+::-webkit-scrollbar{width:6px;}
+::-webkit-scrollbar-track{background:var(--black);}
+::-webkit-scrollbar-thumb{background:var(--gray3);border-radius:3px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">DIYDS<span> Admin</span></div>
+  <div class="tagline">Guide Manager</div>
+  <div class="header-right">
+    <div class="status-dot" id="dbStatus">⬤ Not Connected</div>
+  </div>
+</header>
+
+<main>
+  <!-- LEFT: Form -->
+  <div class="left">
+
+    <div>
+      <span class="section-label">Dropbox Access Token</span>
+      <div class="token-wrap">
+        <input type="password" id="dbToken" placeholder="Paste your Dropbox token here..."/>
+        <button class="toggle-vis" onclick="toggleToken()">👁</button>
+      </div>
+    </div>
+
+    <div>
+      <span class="section-label">Guide Title</span>
+      <input type="text" id="guideTitle" placeholder="e.g. How to Do a Legal Name Change in California"/>
+    </div>
+
+    <div>
+      <span class="section-label">Description (shown on the category page)</span>
+      <textarea id="guideDesc" placeholder="A complete step-by-step guide to... Include what's covered in 1-2 sentences."></textarea>
+    </div>
+
+    <div>
+      <span class="section-label">Category</span>
+      <select id="guideCategory">
+        <option value="">Select a category...</option>
+        <option value="business-organizations">Business & Organizations</option>
+        <option value="paperwork-filings">Paperwork & Filings</option>
+        <option value="money-credit">Money & Credit</option>
+        <option value="life-legal">Life & Legal Processes</option>
+        <option value="transportation-logistics">Transportation & Logistics</option>
+        <option value="bundles">Bundles</option>
+      </select>
+    </div>
+
+    <div class="input-row">
+      <div>
+        <span class="section-label">Price</span>
+        <input type="number" id="guidePrice" placeholder="2.99" min="0" step="0.01"/>
+      </div>
+      <div>
+        <span class="section-label">Status</span>
+        <select id="guideStatus">
+          <option value="active">Active (visible)</option>
+          <option value="draft">Draft (hidden)</option>
+        </select>
+      </div>
+    </div>
+
+    <div>
+      <span class="section-label">Stripe Payment Link</span>
+      <input type="text" id="guideStripe" placeholder="https://buy.stripe.com/..."/>
+    </div>
+
+    <div>
+      <span class="section-label">Dropbox PDF Link</span>
+      <input type="text" id="guidePdf" placeholder="https://www.dropbox.com/s/.../guide.pdf?dl=1"/>
+    </div>
+
+    <div>
+      <span class="section-label">Tags (press Enter to add)</span>
+      <div class="tag-input-wrap" id="tagWrap" onclick="document.getElementById('tagInput').focus()">
+        <input type="text" id="tagInput" class="tag-input" placeholder="e.g. California, LLC, Federal..."/>
+      </div>
+    </div>
+
+    <div>
+      <span class="section-label">Dropbox Shared Link (for live site)</span>
+      <input type="text" id="sharedLink" placeholder="https://www.dropbox.com/s/.../diyds-guides.json?dl=0"/>
+      <div style="font-size:11px;color:var(--muted);margin-top:6px;font-family:DM Mono,monospace;">In Dropbox → right-click diyds-guides.json → Share → Copy link. Paste here then click Save Link.</div>
+    </div>
+
+    <button class="add-btn" id="addBtn" onclick="addGuide()">ADD GUIDE</button>
+    <button class="secondary-btn" onclick="syncToDropbox()">↑ Sync All to Dropbox</button>
+    <button class="secondary-btn" onclick="loadFromDropbox()">↓ Load from Dropbox</button>
+    <button class="secondary-btn" onclick="saveSharedLink()">🔗 Save Shared Link</button>
+
+  </div>
+
+  <!-- RIGHT: Guide list -->
+  <div class="right">
+    <div class="right-toolbar">
+      <span class="toolbar-label">All Guides (<span id="guideCount">0</span>)</span>
+      <select class="filter-select" id="filterCat" onchange="renderGuides()">
+        <option value="">All Categories</option>
+        <option value="business-organizations">Business & Orgs</option>
+        <option value="paperwork-filings">Paperwork & Filings</option>
+        <option value="money-credit">Money & Credit</option>
+        <option value="life-legal">Life & Legal</option>
+        <option value="transportation-logistics">Transportation</option>
+        <option value="bundles">Bundles</option>
+      </select>
+      <button class="tool-btn" onclick="exportHTML()">Export HTML</button>
+    </div>
+    <div class="guides-list" id="guidesList">
+      <div class="empty-state">
+        <div class="empty-icon">📋</div>
+        <h2>NO GUIDES YET</h2>
+        <p>Add your Dropbox token, fill in the form, and hit Add Guide. Your guides sync automatically to Dropbox.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+let guides = [];
+let tags = [];
+
+const DROPBOX_PATH = '/diyds-guides.json';
+
+// Load token from storage
+window.addEventListener('load', () => {
+  const saved = localStorage.getItem('diyds_db_token');
+  const savedLink = localStorage.getItem('diyds_guides_url');
+  if (savedLink) document.getElementById('sharedLink').value = savedLink;
+  if (saved) {
+    document.getElementById('dbToken').value = saved;
+    updateDbStatus(true);
+    loadFromDropbox();
+  }
+});
+
+document.getElementById('dbToken').addEventListener('input', function() {
+  localStorage.setItem('diyds_db_token', this.value.trim());
+  updateDbStatus(this.value.trim().length > 20);
+});
+
+function updateDbStatus(ok) {
+  const el = document.getElementById('dbStatus');
+  el.textContent = ok ? '⬤ Connected' : '⬤ Not Connected';
+  el.className = 'status-dot' + (ok ? ' connected' : '');
+}
+
+function toggleToken() {
+  const inp = document.getElementById('dbToken');
+  inp.type = inp.type === 'password' ? 'text' : 'password';
+}
+
+// Tag input
+document.getElementById('tagInput').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter' || e.key === ',') {
+    e.preventDefault();
+    const val = this.value.trim().replace(/,/g,'');
+    if (val && !tags.includes(val)) {
+      tags.push(val);
+      renderTags();
+    }
+    this.value = '';
+  }
+});
+
+function renderTags() {
+  const wrap = document.getElementById('tagWrap');
+  const input = document.getElementById('tagInput');
+  wrap.innerHTML = '';
+  tags.forEach((tag, i) => {
+    const el = document.createElement('div');
+    el.className = 'tag';
+    el.innerHTML = `${tag}<button onclick="removeTag(${i})">×</button>`;
+    wrap.appendChild(el);
+  });
+  wrap.appendChild(input);
+  input.focus();
+}
+
+function removeTag(i) {
+  tags.splice(i, 1);
+  renderTags();
+}
+
+// Add guide
+function addGuide() {
+  const title = document.getElementById('guideTitle').value.trim();
+  const desc = document.getElementById('guideDesc').value.trim();
+  const category = document.getElementById('guideCategory').value;
+  const price = document.getElementById('guidePrice').value.trim();
+  const stripe = document.getElementById('guideStripe').value.trim();
+  const pdf = document.getElementById('guidePdf').value.trim();
+  const status = document.getElementById('guideStatus').value;
+
+  if (!title) { showToast('Enter a guide title', 'error'); return; }
+  if (!desc) { showToast('Enter a description', 'error'); return; }
+  if (!category) { showToast('Select a category', 'error'); return; }
+  if (!price) { showToast('Enter a price', 'error'); return; }
+  if (!stripe) { showToast('Enter a Stripe payment link', 'error'); return; }
+
+  const guide = {
+    id: Date.now(),
+    title,
+    desc,
+    category,
+    price: parseFloat(price).toFixed(2),
+    stripe,
+    pdf,
+    tags: [...tags],
+    status,
+    created: new Date().toISOString()
+  };
+
+  guides.push(guide);
+  renderGuides();
+  syncToDropbox();
+  clearForm();
+  showToast('Guide added and synced!', 'success');
+}
+
+function clearForm() {
+  document.getElementById('guideTitle').value = '';
+  document.getElementById('guideDesc').value = '';
+  document.getElementById('guideCategory').value = '';
+  document.getElementById('guidePrice').value = '';
+  document.getElementById('guideStripe').value = '';
+  document.getElementById('guidePdf').value = '';
+  document.getElementById('guideStatus').value = 'active';
+  tags = [];
+  renderTags();
+}
+
+function deleteGuide(id) {
+  if (!confirm('Delete this guide?')) return;
+  guides = guides.filter(g => g.id !== id);
+  renderGuides();
+  syncToDropbox();
+  showToast('Guide deleted', 'success');
+}
+
+function editGuide(id) {
+  const g = guides.find(g => g.id === id);
+  if (!g) return;
+  document.getElementById('guideTitle').value = g.title;
+  document.getElementById('guideDesc').value = g.desc;
+  document.getElementById('guideCategory').value = g.category;
+  document.getElementById('guidePrice').value = g.price;
+  document.getElementById('guideStripe').value = g.stripe;
+  document.getElementById('guidePdf').value = g.pdf || '';
+  document.getElementById('guideStatus').value = g.status;
+  tags = [...g.tags];
+  renderTags();
+  guides = guides.filter(g => g.id !== id);
+  renderGuides();
+  document.getElementById('guideTitle').focus();
+  showToast('Guide loaded for editing — update and re-add', '');
+}
+
+// Render guide list
+function renderGuides() {
+  const filter = document.getElementById('filterCat').value;
+  const filtered = filter ? guides.filter(g => g.category === filter) : guides;
+  document.getElementById('guideCount').textContent = guides.length;
+
+  const list = document.getElementById('guidesList');
+  if (guides.length === 0) {
+    list.innerHTML = `<div class="empty-state"><div class="empty-icon">📋</div><h2>NO GUIDES YET</h2><p>Fill in the form and hit Add Guide. Your guides sync automatically to Dropbox.</p></div>`;
+    return;
+  }
+  if (filtered.length === 0) {
+    list.innerHTML = `<div class="empty-state"><div class="empty-icon">🔍</div><h2>NO GUIDES IN THIS CATEGORY</h2><p>Switch the filter or add a guide to this category.</p></div>`;
+    return;
+  }
+
+  const catLabels = {
+    'business-organizations': 'Business',
+    'paperwork-filings': 'Paperwork',
+    'money-credit': 'Money',
+    'life-legal': 'Legal',
+    'transportation-logistics': 'Transport',
+    'bundles': 'Bundle'
+  };
+  const catClasses = {
+    'business-organizations': 'business',
+    'paperwork-filings': 'paperwork',
+    'money-credit': 'money',
+    'life-legal': 'legal',
+    'transportation-logistics': 'transport',
+    'bundles': 'bundles'
+  };
+
+  list.innerHTML = filtered.map(g => `
+    <div class="guide-item">
+      <div class="guide-item-info">
+        <div class="guide-item-title">${g.title}</div>
+        <div class="guide-item-desc">${g.desc}</div>
+        <div class="guide-item-meta">
+          <span class="cat-badge ${catClasses[g.category]}">${catLabels[g.category]}</span>
+          <span class="price-badge">$${g.price}</span>
+          ${g.status === 'draft' ? '<span class="tag-badge">Draft</span>' : ''}
+          ${g.tags.map(t => `<span class="tag-badge">${t}</span>`).join('')}
+        </div>
+      </div>
+      <div class="guide-item-actions">
+        <button class="item-btn" onclick="editGuide(${g.id})">✏ Edit</button>
+        <button class="item-btn del" onclick="deleteGuide(${g.id})">✕ Delete</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+// Dropbox sync
+async function syncToDropbox() {
+  const token = document.getElementById('dbToken').value.trim();
+  if (!token) { showToast('Add your Dropbox token first', 'error'); return; }
+
+  try {
+    const response = await fetch('https://content.dropboxapi.com/2/files/upload', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Dropbox-API-Arg': JSON.stringify({
+          path: DROPBOX_PATH,
+          mode: 'overwrite',
+          autorename: false,
+          mute: true
+        }),
+        'Content-Type': 'application/octet-stream'
+      },
+      body: JSON.stringify(guides, null, 2)
+    });
+
+    if (!response.ok) {
+      const err = await response.json();
+      throw new Error(err.error_summary || 'Sync failed');
+    }
+
+    updateDbStatus(true);
+    showToast('Synced to Dropbox ✓', 'success');
+  } catch (err) {
+    showToast('Sync error: ' + err.message, 'error');
+    console.error(err);
+  }
+}
+
+async function loadFromDropbox() {
+  const token = document.getElementById('dbToken').value.trim();
+  if (!token) return;
+
+  try {
+    const response = await fetch('https://content.dropboxapi.com/2/files/download', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Dropbox-API-Arg': JSON.stringify({ path: DROPBOX_PATH })
+      }
+    });
+
+    if (response.status === 409) {
+      // File doesn't exist yet — that's fine
+      updateDbStatus(true);
+      return;
+    }
+
+    if (!response.ok) throw new Error('Load failed');
+
+    const data = await response.json();
+    guides = Array.isArray(data) ? data : [];
+    renderGuides();
+    updateDbStatus(true);
+    showToast('Loaded from Dropbox ✓', 'success');
+  } catch (err) {
+    if (!err.message.includes('not_found')) {
+      showToast('Load error: ' + err.message, 'error');
+    }
+    updateDbStatus(true);
+  }
+}
+
+// Export HTML for a category
+function exportHTML() {
+  const filter = document.getElementById('filterCat').value;
+  if (!filter) { showToast('Select a category to export', 'error'); return; }
+
+  const catGuides = guides.filter(g => g.category === filter && g.status === 'active');
+  if (catGuides.length === 0) { showToast('No active guides in this category', 'error'); return; }
+
+  const html = catGuides.map(g => `
+      <div class="guide-card">
+        <div class="guide-info">
+          <h2>${g.title}</h2>
+          <p>${g.desc}</p>
+          <div class="guide-meta">
+            ${g.tags.map(t => `<span class="guide-tag">${t}</span>`).join('')}
+            <span class="guide-tag">PDF</span>
+          </div>
+        </div>
+        <div class="guide-action">
+          <div class="guide-price">$${g.price}</div>
+          <a href="${g.stripe}" class="btn-buy">Buy →</a>
+        </div>
+      </div>`).join('\n');
+
+  navigator.clipboard.writeText(html).then(() => {
+    showToast('HTML copied! Paste into your category page.', 'success');
+  });
+}
+
+function saveSharedLink() {
+  const link = document.getElementById('sharedLink').value.trim();
+  if (!link) { showToast('Paste your Dropbox shared link first', 'error'); return; }
+  localStorage.setItem('diyds_guides_url', link);
+  showToast('Shared link saved — category pages will now load guides automatically!', 'success');
+}
+
+function showToast(msg, type = '') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast show ' + type;
+  setTimeout(() => t.className = 'toast', 3500);
+}
+</script>
+</body>
+</html>
