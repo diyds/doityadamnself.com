@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Business & Organizations — Do It Ya Damn Self!</title>
+<meta name="description" content="Guides to help you start, structure, and manage a business or organization from formation to required filings and compliance."/>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{--lime:#c5e835;--black:#111;--white:#fff;--off:#f0f4e8;}
+body{font-family:'Archivo',sans-serif;color:var(--black);background:var(--white);overflow-x:hidden;}
+
+nav{position:sticky;top:0;z-index:999;background:var(--white);border-bottom:3px solid var(--black);padding:0 60px;display:flex;align-items:center;justify-content:space-between;height:68px;}
+.nav-logo{font-family:'Archivo Black',sans-serif;font-size:1.25rem;font-style:italic;color:var(--black);text-decoration:none;letter-spacing:-0.5px;transform:skewX(-6deg);display:inline-block;}
+.nav-links{display:flex;gap:32px;align-items:center;}
+.nav-links a{font-family:'Archivo',sans-serif;font-weight:700;font-size:0.78rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--black);text-decoration:none;transition:color .15s;}
+.nav-links a:hover{color:#555;}
+.nav-cta{background:var(--black);color:var(--lime)!important;padding:10px 22px;border-radius:3px;font-family:'Archivo Black',sans-serif!important;font-size:0.75rem!important;letter-spacing:1.5px;}
+.nav-cta:hover{background:#333!important;}
+
+.cat-hero{background:var(--lime);border-bottom:3px solid var(--black);padding:80px 60px 70px;}
+.breadcrumb{font-size:0.8rem;color:#555;margin-bottom:20px;font-weight:500;}
+.breadcrumb a{color:var(--black);text-decoration:none;font-weight:700;}
+.breadcrumb a:hover{text-decoration:underline;}
+.cat-hero h1{font-family:'Archivo Black',sans-serif;font-size:4rem;line-height:0.95;letter-spacing:-2px;color:var(--black);margin-bottom:20px;max-width:700px;}
+.cat-hero p{font-size:1.05rem;line-height:1.7;color:#222;max-width:560px;font-weight:500;}
+
+.guides-section{padding:70px 60px;}
+.inner{max-width:1200px;margin:0 auto;}
+.guides-count{font-family:'Archivo Black',sans-serif;font-size:0.75rem;text-transform:uppercase;letter-spacing:2px;color:#888;margin-bottom:32px;}
+
+.guides-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+}
+.guide-card{
+  border:2px solid var(--black);
+  border-radius:3px;
+  padding:28px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  transition:all .15s;
+  background:var(--white);
+  min-height:280px;
+}
+.guide-card:hover{background:var(--off);transform:translateY(-3px);box-shadow:4px 4px 0 var(--black);}
+.guide-info{flex:1;}
+.guide-info h2{font-family:'Archivo Black',sans-serif;font-size:1.05rem;margin-bottom:10px;letter-spacing:-0.3px;line-height:1.2;}
+.guide-info p{font-size:0.85rem;color:#555;line-height:1.6;margin:0;}
+.guide-meta{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap;}
+.guide-tag{font-family:'Archivo Black',sans-serif;font-size:0.65rem;text-transform:uppercase;letter-spacing:1px;background:var(--off);padding:3px 8px;border-radius:2px;color:#666;}
+.guide-action{display:flex;align-items:center;justify-content:space-between;margin-top:20px;padding-top:16px;border-top:1px solid #eee;}
+.guide-price{font-family:'Archivo Black',sans-serif;font-size:1.4rem;color:var(--black);letter-spacing:-0.5px;}
+.btn-buy{
+  display:inline-block;
+  background:var(--black);
+  color:var(--lime)!important;
+  font-family:'Archivo Black',sans-serif;
+  font-size:0.75rem;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+  padding:10px 20px;
+  border-radius:3px;
+  text-decoration:none!important;
+  border:2px solid var(--black);
+  transition:all .15s;
+  white-space:nowrap;
+}
+.btn-buy:hover{background:transparent;color:var(--black)!important;}
+
+.empty-state{text-align:center;padding:80px 0;color:#aaa;}
+.empty-state h3{font-family:'Archivo Black',sans-serif;font-size:1.5rem;margin-bottom:12px;color:#888;}
+.empty-state p{font-size:1rem;line-height:1.6;}
+
+.back-section{padding:0 60px 60px;}
+.btn-back{display:inline-flex;align-items:center;gap:8px;font-family:'Archivo Black',sans-serif;font-size:0.8rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--black);text-decoration:none;border:2px solid var(--black);padding:12px 24px;border-radius:3px;transition:all .15s;}
+.btn-back:hover{background:var(--black);color:var(--lime);}
+
+footer{background:var(--black);border-top:4px solid var(--lime);padding:60px;}
+.footer-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:60px;}
+.footer-brand .logo{font-family:'Archivo Black',sans-serif;font-size:1.1rem;font-style:italic;color:var(--lime);text-decoration:none;display:inline-block;margin-bottom:16px;}
+.footer-brand p{font-size:0.88rem;color:#666;line-height:1.65;max-width:260px;}
+.footer-col h4{font-family:'Archivo Black',sans-serif;font-size:0.75rem;text-transform:uppercase;letter-spacing:2px;color:var(--lime);margin-bottom:20px;}
+.footer-col a{display:block;font-size:0.88rem;color:#888;text-decoration:none;margin-bottom:10px;transition:color .15s;}
+.footer-col a:hover{color:var(--lime);}
+.footer-bottom{max-width:1200px;margin:48px auto 0;padding-top:24px;border-top:1px solid #222;display:flex;justify-content:space-between;align-items:center;font-size:0.8rem;color:#444;}
+
+@media(max-width:900px){
+  nav{padding:0 28px;}
+  .nav-links{display:none;}
+  .cat-hero{padding:60px 28px 50px;}
+  .cat-hero h1{font-size:2.6rem;}
+  .guides-section{padding:48px 28px;}
+  .back-section{padding:0 28px 48px;}
+  .guides-grid{grid-template-columns:1fr 1fr;}
+  .footer-inner{grid-template-columns:1fr 1fr;gap:40px;}
+  .footer-bottom{flex-direction:column;gap:12px;text-align:center;}
+  footer{padding:48px 28px;}
+}
+@media(max-width:560px){
+  .guides-grid{grid-template-columns:1fr;}
+  .cat-hero h1{font-size:2rem;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="nav-logo">Do It Ya Damn Self!</a>
+  <div class="nav-links">
+    <a href="/index.html">Home</a>
+    <a href="/index.html#categories">Categories</a>
+    <a href="/index.html#how-it-works">How It Works</a>
+    <a href="/index.html#categories" class="nav-cta">Browse Guides →</a>
+  </div>
+</nav>
+
+<div class="cat-hero">
+  <div class="breadcrumb"><a href="/index.html">Home</a> → Business & Organizations</div>
+  <h1>Money &<br>Credit</h1>
+  <p>Guides that explain financial and administrative processes so you can set things up properly and stay organized without needing a specialist.</p>
+</div>
+
+<div class="guides-section">
+  <div class="inner">
+    <div class="guides-count">Available Guides</div>
+
+    <div class="guides-grid">
+
+      <div class="guide-card">
+        <div class="guide-info">
+          <h2>How to Dispute a Credit Report Error</h2>
+          <p>Sample dispute letters, how to contact all three bureaus, timelines, and what to do if your dispute is rejected.</p>
+          <div class="guide-meta">
+            <span class="guide-tag">Florida</span>
+            <span class="guide-tag">LLC</span>
+            <span class="guide-tag">PDF</span>
+          </div>
+        </div>
+        <div class="guide-action">
+          <div class="guide-price">$2.99</div>
+          <a href="YOUR_STRIPE_LINK_HERE" class="btn-buy">Buy →</a>
+        </div>
+      </div>
+
+      <!-- COPY THE CARD ABOVE TO ADD MORE GUIDES -->
+
+    </div>
+
+  </div>
+</div>
+
+<div class="back-section">
+  <div class="inner">
+    <a href="/index.html#categories" class="btn-back">← Back to All Categories</a>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="/index.html" class="logo">Do It Ya Damn Self!</a>
+      <p>Clear, step-by-step guides for legal, financial, and government processes. No lawyers. No consultants. Just you and the instructions.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <a href="/business-organizations.html">Business & Orgs</a>
+      <a href="/paperwork-filings.html">Paperwork & Filings</a>
+      <a href="/money-credit.html">Money & Credit</a>
+      <a href="/life-legal.html">Life & Legal</a>
+      <a href="/transportation-logistics.html">Transportation</a>
+      <a href="/bundles.html">Bundles</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms of Service</a>
+      <a href="/disclaimer.html">Disclaimer</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 DoItYaDamnSelf. All rights reserved.</span>
+    <span>Educational information only — not legal, tax, or financial advice.</span>
+  </div>
+</footer>
+
+</body>
+</html>
