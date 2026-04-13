@@ -309,5 +309,21 @@
     "desc": "How to choose the right business bank, what documents to bring, and how to set up your account correctly from day one. Covers free online banks, traditional banks, and what to avoid.",
     "stripe": "https://buy.stripe.com/eVq9ASgzP2fdbaF6Hn3gk0g",
     "pdf": "https://www.dropbox.com/scl/fi/0xw9dlaa2uok9v2yyh812/how-to-set-up-a-business-bank-account.pdf?rlkey=xz721n0f826kym6q9oabghthj&st=bkxn9ihx&dl=1"
+  },
+  {
+    "id": 1776124611185,
+    "title": "How to Negotiate Your Salary TEST",
+    "desc": "Test publish via automation pipeline",
+    "category": "life-legal",
+    "price": "0.99",
+    "stripe": "https://buy.stripe.com/fZu7sK6Zf1b95Ql1n33gk0h",
+    "pdf": "https://www.dropbox.com/scl/fi/kkng1cpciwh08a5pi69v9/how-to-negotiate-your-salary-test.pdf?rlkey=qmmctdq4gsmcgxzf9my6t5g83&dl=0?dl=1",
+    "tags": [
+      "salary",
+      "negotiation",
+      "test"
+    ],
+    "status": "active",
+    "created": "2026-04-13T23:56:51.000Z"
   }
 ]
