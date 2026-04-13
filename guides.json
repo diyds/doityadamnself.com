@@ -1,17 +1,26 @@
 [
   {
-    "id": 1775971752638,
-    "title": "How to Do a Legal Name Change in California",
-    "desc": "A complete step-by-step guide to legally changing your name in California — includes all required court forms, filing fees, processing times, county court links, and exactly what to say at your hearing.",
-    "category": "paperwork-filings",
+    "id": 1776038363713,
+    "title": "How to Apply for an EIN (Employer Identification Number)",
+    "desc": "Get your free federal Tax ID number from the IRS in 10 minutes. Includes what it is, why you need it, and every step of the application.",
+    "category": "business-organizations",
     "price": "2.99",
-    "stripe": "https://buy.stripe.com/14AeVc4R7f1Z2E93vb3gk00",
-    "pdf": "https://www.dropbox.com/scl/fi/6cjpfo4a9luojlux3kfds/how-to-legally-change-your-name-in-california.pdf?rlkey=2fu1nxao6wzihvee5gvz8yulh&st=ihqjxskq&dl=1",
-    "tags": [
-      "California",
-      "Name Change"
-    ],
+    "stripe": "https://buy.stripe.com/00w9AS0AR075baFd5L3gk02",
+    "pdf": "https://www.dropbox.com/scl/fi/jseuxfge5psc7vh3o5lcn/how-to-apply-for-an-ein.pdf?rlkey=r7vi7tsjyd3w5d0psb616uhu2&st=k6vmm81l&dl=1",
+    "tags": [],
     "status": "active",
-    "created": "2026-04-12T05:29:12.638Z"
+    "created": "2026-04-12T23:59:23.713Z"
+  },
+  {
+    "id": 1776038622255,
+    "title": "How to Do a Legal Name Change in California",
+    "desc": "Complete guide to legally changing your name in California including all court forms, filing fees, and specific instructions for Los Angeles, San Francisco, and San Diego.",
+    "category": "life-legal",
+    "price": "3.99",
+    "stripe": "https://buy.stripe.com/8x2fZg97n5rp6Up1n33gk03",
+    "pdf": "https://www.dropbox.com/scl/fi/018lmixn4lb54zenpod1k/how-to-do-a-legal-name-change-in-california.pdf?rlkey=08pgyisuhpj7em9685rvn2kjj&st=fx9a3eh3&dl=1",
+    "tags": [],
+    "status": "active",
+    "created": "2026-04-13T00:03:42.255Z"
   }
 ]
