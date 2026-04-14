@@ -309,5 +309,24 @@
     "desc": "How to choose the right business bank, what documents to bring, and how to set up your account correctly from day one. Covers free online banks, traditional banks, and what to avoid.",
     "stripe": "https://buy.stripe.com/eVq9ASgzP2fdbaF6Hn3gk0g",
     "pdf": "https://www.dropbox.com/scl/fi/0xw9dlaa2uok9v2yyh812/how-to-set-up-a-business-bank-account.pdf?rlkey=xz721n0f826kym6q9oabghthj&st=bkxn9ihx&dl=1"
+  },
+  {
+    "id": 1776128964109,
+    "title": "How to Build Your Credit Score from Zero",
+    "desc": "Build strong credit from scratch in 6-12 months. Covers secured cards, credit-builder loans, authorized user strategy, rent reporting, and exactly how to reach a 700+ score.",
+    "category": "money-credit",
+    "price": "2.99",
+    "stripe": "https://buy.stripe.com/7sYbJ03N37zx92x1n33gk0i",
+    "pdf": "https://www.dropbox.com/scl/fi/3t9v86p251si7xma9mxoo/how-to-build-your-credit-score-from-zero.pdf?rlkey=m5bz2u0nt4e2epo41nx85yww1&dl=0?dl=1",
+    "tags": [
+      "credit",
+      "credit score",
+      "build credit",
+      "secured card",
+      "credit builder",
+      "no credit"
+    ],
+    "status": "active",
+    "created": "2026-04-14T01:09:24.000Z"
   }
 ]
