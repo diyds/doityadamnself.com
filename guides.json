@@ -358,5 +358,20 @@
     ],
     "status": "active",
     "created": "2026-04-14T03:26:32.914Z"
+  },
+  {
+    "id": 1776137666410,
+    "title": "Test Guide",
+    "desc": "test #2",
+    "category": "money-credit",
+    "price": "2.99",
+    "stripe": "https://buy.stripe.com/bJeeVcdnD2fd2E94zf3gk0r",
+    "pdf": "https://www.dropbox.com/scl/fi/y2z72brgcug3wnfo5rkip/test-guide.pdf?rlkey=ptpaim42hvozzue7n2k1jp3oq&dl=0?dl=1",
+    "tags": [
+      "test",
+      "guide"
+    ],
+    "status": "active",
+    "created": "2026-04-14T03:34:26.000Z"
   }
 ]
