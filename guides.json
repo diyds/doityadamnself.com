@@ -359,20 +359,5 @@
       "there"
     ],
     "title": "Hello"
-  },
-  {
-    "id": 1776138444456,
-    "title": "build a house",
-    "desc": "short explain",
-    "category": "money-credit",
-    "price": "2.99",
-    "stripe": "https://buy.stripe.com/fZu4gy6ZfcTRbaF6Hn3gk0v",
-    "pdf": "https://www.dropbox.com/scl/fi/95qn6ev9tf46r5p9wx2dj/build-a-house.pdf?rlkey=aejnbgfe2jdq0jdkjq4yn7piq&dl=0?dl=1",
-    "tags": [
-      "test",
-      "user"
-    ],
-    "status": "active",
-    "created": "2026-04-14T03:47:24.456Z"
   }
 ]
