@@ -328,5 +328,24 @@
     ],
     "status": "active",
     "created": "2026-04-14T01:09:24.000Z"
+  },
+  {
+    "id": 1776135685445,
+    "title": "How to Sell Your Own House Without a Realtor (FSBO)",
+    "desc": "Save $15,000-$30,000 in realtor commissions by selling your home yourself. Complete FSBO guide covering pricing, MLS listing, photography, showings, offers, negotiations, and closing.",
+    "category": "life-legal",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/14A4gyerH2fd92xaXD3gk0p",
+    "pdf": "https://www.dropbox.com/scl/fi/4863fzbgobkz78gvrwsfg/how-to-sell-your-own-house-without-a-realtor-fsbo.pdf?rlkey=h4tcgbmnk1xj4kjp6hv85q678&dl=0?dl=1",
+    "tags": [
+      "FSBO",
+      "sell house",
+      "for sale by owner",
+      "real estate",
+      "home sale",
+      "realtor"
+    ],
+    "status": "active",
+    "created": "2026-04-14T03:01:25.000Z"
   }
 ]
