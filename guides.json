@@ -372,11 +372,8 @@
     "created": "2026-04-14T03:34:26.953Z"
   },
   {
-    "id": 1776137771154,
+    "id": 1776137771803,
     "title": "Hello",
-    "desc": "Hello there",
-    "category": "money-credit",
-    "price": "2.99",
     "stripe": "https://buy.stripe.com/28EaEWerHf1ZemR0iZ3gk0s",
     "pdf": "https://www.dropbox.com/scl/fi/9sth372e8nf2xs33ji8h2/hello.pdf?rlkey=hukw4llz5e7kvxgqy8wk8gfm7&dl=0?dl=1",
     "tags": [
@@ -384,6 +381,6 @@
       "there"
     ],
     "status": "active",
-    "created": "2026-04-14T03:36:11.000Z"
+    "created": "2026-04-14T03:36:11.803Z"
   }
 ]
