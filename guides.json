@@ -361,18 +361,6 @@
     "title": "Hello"
   },
   {
-    "created": "2026-04-14T03:37:22.759Z",
-    "id": 1776137842759,
-    "pdf": "https://www.dropbox.com/scl/fi/u01b86u7a91ia0x35ebqk/new-guide.pdf?rlkey=7p1tpbjclxuzsybh0iipf1t0o&dl=0?dl=1",
-    "status": "active",
-    "stripe": "https://buy.stripe.com/fZudR897n075ceJ6Hn3gk0t",
-    "tags": [
-      "test",
-      "one"
-    ],
-    "title": "new guide"
-  },
-  {
     "id": 1776138444456,
     "title": "build a house",
     "desc": "short explain",
