@@ -373,20 +373,6 @@
     "title": "new guide"
   },
   {
-    "id": 1776138326614,
-    "title": "ONemore",
-    "desc": "testing again",
-    "category": "money-credit",
-    "price": "3.99",
-    "stripe": "https://buy.stripe.com/fZudR883j8DB0w1d5L3gk0u",
-    "pdf": "https://www.dropbox.com/scl/fi/yimx8c8apgly21uwktqse/onemore.pdf?rlkey=ariwbdong1yccyziz6u8sez7l&dl=0?dl=1",
-    "tags": [
-      "bear with me"
-    ],
-    "status": "active",
-    "created": "2026-04-14T03:45:26.614Z"
-  },
-  {
     "id": 1776138444456,
     "title": "build a house",
     "desc": "short explain",
