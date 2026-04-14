@@ -349,27 +349,41 @@
     "title": "How to Sell Your Own House Without a Realtor (FSBO)"
   },
   {
+    "created": "2026-04-14T03:36:11.803Z",
     "id": 1776137771803,
-    "title": "Hello",
-    "stripe": "https://buy.stripe.com/28EaEWerHf1ZemR0iZ3gk0s",
     "pdf": "https://www.dropbox.com/scl/fi/9sth372e8nf2xs33ji8h2/hello.pdf?rlkey=hukw4llz5e7kvxgqy8wk8gfm7&dl=0?dl=1",
+    "status": "active",
+    "stripe": "https://buy.stripe.com/28EaEWerHf1ZemR0iZ3gk0s",
     "tags": [
       "hello",
       "there"
     ],
-    "status": "active",
-    "created": "2026-04-14T03:36:11.803Z"
+    "title": "Hello"
   },
   {
+    "created": "2026-04-14T03:37:22.759Z",
     "id": 1776137842759,
-    "title": "new guide",
-    "stripe": "https://buy.stripe.com/fZudR897n075ceJ6Hn3gk0t",
     "pdf": "https://www.dropbox.com/scl/fi/u01b86u7a91ia0x35ebqk/new-guide.pdf?rlkey=7p1tpbjclxuzsybh0iipf1t0o&dl=0?dl=1",
+    "status": "active",
+    "stripe": "https://buy.stripe.com/fZudR897n075ceJ6Hn3gk0t",
     "tags": [
       "test",
       "one"
     ],
+    "title": "new guide"
+  },
+  {
+    "id": 1776138326614,
+    "title": "ONemore",
+    "desc": "testing again",
+    "category": "money-credit",
+    "price": "3.99",
+    "stripe": "https://buy.stripe.com/fZudR883j8DB0w1d5L3gk0u",
+    "pdf": "https://www.dropbox.com/scl/fi/yimx8c8apgly21uwktqse/onemore.pdf?rlkey=ariwbdong1yccyziz6u8sez7l&dl=0?dl=1",
+    "tags": [
+      "bear with me"
+    ],
     "status": "active",
-    "created": "2026-04-14T03:37:22.759Z"
+    "created": "2026-04-14T03:45:26.614Z"
   }
 ]
