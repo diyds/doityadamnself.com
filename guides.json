@@ -161,10 +161,10 @@
     "pdf": "https://www.dropbox.com/scl/fi/0zs41oy6itgu17kvojbbo/how-to-file-your-own-income-taxes-form-1040.pdf?rlkey=7gdoygzmdoe0pjcxnteshwzkg&st=4s6680dm&dl=1"
   },
   {
+    "id": 1776086812609,
     "title": "How to Negotiate Your Salary",
     "category": "life-legal",
     "price": "3.99",
-    "status": "active",
     "tags": [
       "salary",
       "negotiation",
@@ -173,17 +173,17 @@
       "raise",
       "compensation"
     ],
-    "id": 1776086812609,
+    "status": "active",
     "created": "2026-04-13T06:00:00.000Z",
     "desc": "Step-by-step guide to negotiating your salary with word-for-word scripts, research tools, and proven strategies. A single conversation can add thousands to your income permanently.",
     "stripe": "https://buy.stripe.com/8x2dR82IZ1b992x9Tz3gk09",
     "pdf": "https://www.dropbox.com/scl/fi/216ge930rbsw7ptifs0ik/how-to-negotiate-your-salary.pdf?rlkey=b1gg6ki2tjp516mw7p4dsi627&st=t22e3tei&dl=1"
   },
   {
+    "id": 1776086812610,
     "title": "How to Create a Professional Resume",
     "category": "life-legal",
     "price": "3.99",
-    "status": "active",
     "tags": [
       "resume",
       "career",
@@ -192,17 +192,17 @@
       "CV",
       "hiring"
     ],
-    "id": 1776086812610,
+    "status": "active",
     "created": "2026-04-13T06:00:00.000Z",
     "desc": "Build a resume that gets interviews. Covers every section, how to write accomplishments, ATS optimization, and what hiring managers actually look for. Includes a professionally formatted Word template.",
     "stripe": "https://buy.stripe.com/8x200i1EV1b992x6Hn3gk0a",
     "pdf": "https://www.dropbox.com/scl/fi/ygv7f3y2goxt3vryuv520/how-to-create-a-professional-resume.pdf?rlkey=ipdnx3mgqx1wbtyoz9fbpag3q&st=3jt79ba4&dl=1"
   },
   {
+    "id": 1776086812611,
     "title": "How to Start an LLC in California",
     "category": "business-organizations",
     "price": "4.99",
-    "status": "active",
     "tags": [
       "LLC",
       "California",
@@ -210,17 +210,17 @@
       "small business",
       "limited liability"
     ],
-    "id": 1776086812611,
+    "status": "active",
     "created": "2026-04-13T06:00:00.000Z",
     "desc": "Complete step-by-step guide to forming an LLC in California. Covers name registration, Articles of Organization, Operating Agreement, EIN, franchise tax, licenses, and business banking.",
     "stripe": "https://buy.stripe.com/8x27sKabrf1ZfqV1n33gk0b",
     "pdf": "https://www.dropbox.com/scl/fi/h4569w7yjfgvmfbk4gv4d/how-to-start-an-llc-in-california.pdf?rlkey=j1zdtez3lrr3871j5hhquq25g&st=u5t0m020&dl=1"
   },
   {
+    "id": 1776086812612,
     "title": "How to File Articles of Organization in California",
     "category": "business-organizations",
     "price": "3.99",
-    "status": "active",
     "tags": [
       "articles of organization",
       "LLC",
@@ -228,17 +228,17 @@
       "Secretary of State",
       "Form LLC-1"
     ],
-    "id": 1776086812612,
+    "status": "active",
     "created": "2026-04-13T06:00:00.000Z",
     "desc": "Detailed walkthrough of every single field on California Form LLC-1 with plain English explanations of what each field is asking and how to answer it correctly.",
     "stripe": "https://buy.stripe.com/00w14m4R7f1Z5Ql9Tz3gk0c",
     "pdf": "https://www.dropbox.com/scl/fi/z9x5aesj89eg8z3cd7hnf/how-to-file-articles-of-organization-in-california.pdf?rlkey=ol72txvzc3dibwr0fx89u0a4d&st=uf1hdxur&dl=1"
   },
   {
+    "id": 1776086812613,
     "title": "How to Transfer a Car Title in California",
     "category": "transportation-logistics",
     "price": "2.99",
-    "status": "active",
     "tags": [
       "car title",
       "DMV",
@@ -247,17 +247,17 @@
       "pink slip",
       "used car"
     ],
-    "id": 1776086812613,
+    "status": "active",
     "created": "2026-04-13T06:00:00.000Z",
     "desc": "Everything buyers and sellers need to legally transfer a vehicle title in California. Covers the DMV process, smog requirements, release of liability, use tax, and special situations.",
     "stripe": "https://buy.stripe.com/dRm9AS4R75rpceJ5Dj3gk0d",
     "pdf": "https://www.dropbox.com/scl/fi/00bgq1p1agzhj9ldtdvkw/how-to-transfer-a-car-title-in-california.pdf?rlkey=nr6p8giqdy4x3jke43rn6d478&st=ubq5txza&dl=1"
   },
   {
+    "id": 1776086812614,
     "title": "How to Obtain an MC Number",
     "category": "transportation-logistics",
     "price": "3.99",
-    "status": "active",
     "tags": [
       "MC number",
       "motor carrier",
@@ -266,17 +266,17 @@
       "operating authority",
       "freight"
     ],
-    "id": 1776086812614,
+    "status": "active",
     "created": "2026-04-13T06:00:00.000Z",
     "desc": "Step-by-step guide to getting your Motor Carrier operating authority from the FMCSA. Covers the application, BOC-3 filing, insurance requirements, UCR registration, and how to activate your authority.",
     "stripe": "https://buy.stripe.com/cNieVcabrf1Z4Mhd5L3gk0e",
     "pdf": "https://www.dropbox.com/scl/fi/r3eyeyn2kv7r0lg45z86n/how-to-obtain-an-mc-number.pdf?rlkey=7czjh1ipn9xj2nhmrsycke69j&st=t2i1q770&dl=1"
   },
   {
+    "id": 1776086812615,
     "title": "How to Register for a USDOT Number",
     "category": "transportation-logistics",
     "price": "3.99",
-    "status": "active",
     "tags": [
       "USDOT",
       "DOT number",
@@ -285,17 +285,17 @@
       "commercial vehicle",
       "MCS-150"
     ],
-    "id": 1776086812615,
+    "status": "active",
     "created": "2026-04-13T06:00:00.000Z",
     "desc": "Complete guide to registering for a USDOT number with every field on the MCS-150 form explained in plain English. Covers who needs one, how to register, and what to do after approval.",
     "stripe": "https://buy.stripe.com/3cI7sK0AR9HF4Mh8Pv3gk0f",
     "pdf": "https://www.dropbox.com/scl/fi/echpgmu4jg8fm93lxynsb/how-to-register-for-a-usdot-number.pdf?rlkey=xtwtmda4b7cjx34a1l3vjzxgz&st=pf71a58m&dl=1"
   },
   {
+    "id": 1776086812616,
     "title": "How to Set Up a Business Bank Account",
     "category": "business-organizations",
     "price": "2.99",
-    "status": "active",
     "tags": [
       "business bank account",
       "banking",
@@ -304,26 +304,10 @@
       "checking account",
       "EIN"
     ],
-    "id": 1776086812616,
+    "status": "active",
     "created": "2026-04-13T06:00:00.000Z",
     "desc": "How to choose the right business bank, what documents to bring, and how to set up your account correctly from day one. Covers free online banks, traditional banks, and what to avoid.",
     "stripe": "https://buy.stripe.com/eVq9ASgzP2fdbaF6Hn3gk0g",
     "pdf": "https://www.dropbox.com/scl/fi/0xw9dlaa2uok9v2yyh812/how-to-set-up-a-business-bank-account.pdf?rlkey=xz721n0f826kym6q9oabghthj&st=bkxn9ihx&dl=1"
-  },
-  {
-    "id": 1776124611185,
-    "title": "How to Negotiate Your Salary TEST",
-    "desc": "Test publish via automation pipeline",
-    "category": "life-legal",
-    "price": "0.99",
-    "stripe": "https://buy.stripe.com/fZu7sK6Zf1b95Ql1n33gk0h",
-    "pdf": "https://www.dropbox.com/scl/fi/kkng1cpciwh08a5pi69v9/how-to-negotiate-your-salary-test.pdf?rlkey=qmmctdq4gsmcgxzf9my6t5g83&dl=0?dl=1",
-    "tags": [
-      "salary",
-      "negotiation",
-      "test"
-    ],
-    "status": "active",
-    "created": "2026-04-13T23:56:51.000Z"
   }
 ]
