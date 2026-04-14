@@ -349,22 +349,19 @@
     "title": "How to Sell Your Own House Without a Realtor (FSBO)"
   },
   {
+    "created": "2026-04-14T03:26:32.914Z",
     "id": 1776137192914,
-    "title": "test guide delete me",
-    "stripe": "https://buy.stripe.com/3cI14m97n3jhemRd5L3gk0q",
     "pdf": "https://www.dropbox.com/scl/fi/iconoqeu5583ff5gf1ztd/test-guide-delete-me.pdf?rlkey=xjzzbj5hgs4nfkdkerfxcmu9f&dl=0?dl=1",
+    "status": "active",
+    "stripe": "https://buy.stripe.com/3cI14m97n3jhemRd5L3gk0q",
     "tags": [
       "test"
     ],
-    "status": "active",
-    "created": "2026-04-14T03:26:32.914Z"
+    "title": "test guide delete me"
   },
   {
-    "id": 1776137666410,
+    "id": 1776137666953,
     "title": "Test Guide",
-    "desc": "test #2",
-    "category": "money-credit",
-    "price": "2.99",
     "stripe": "https://buy.stripe.com/bJeeVcdnD2fd2E94zf3gk0r",
     "pdf": "https://www.dropbox.com/scl/fi/y2z72brgcug3wnfo5rkip/test-guide.pdf?rlkey=ptpaim42hvozzue7n2k1jp3oq&dl=0?dl=1",
     "tags": [
@@ -372,6 +369,6 @@
       "guide"
     ],
     "status": "active",
-    "created": "2026-04-14T03:34:26.000Z"
+    "created": "2026-04-14T03:34:26.953Z"
   }
 ]
