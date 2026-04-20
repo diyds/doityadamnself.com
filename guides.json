@@ -347,23 +347,5 @@
       "realtor"
     ],
     "title": "How to Sell Your Own House Without a Realtor (FSBO)"
-  },
-  {
-    "id": 1776648083299,
-    "title": "How to Start a Trust",
-    "desc": "Complete guide to creating your own trust without expensive lawyers. Includes document templates, asset transfer process, and tax considerations.",
-    "category": "life-legal",
-    "price": "3.99",
-    "stripe": "https://buy.stripe.com/9B6aEWcjzdXVfqV8Pv3gk0D",
-    "pdf": "https://www.dropbox.com/scl/fi/ei5esh2krhz6zs27l5hul/how-to-start-a-trust.pdf?rlkey=awkoo71zv0axtt7ttipg9f8ee&dl=1",
-    "tags": [
-      "trust",
-      "estate planning",
-      "asset protection",
-      "legal documents",
-      "probate avoidance"
-    ],
-    "status": "active",
-    "created": "2026-04-20T01:21:23.299Z"
   }
 ]
