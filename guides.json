@@ -349,13 +349,14 @@
     "title": "How to Sell Your Own House Without a Realtor (FSBO)"
   },
   {
-    "id": 1776648468055,
-    "title": "How to Start Your Own Trust",
-    "desc": "Learn to create your own trust to protect assets, avoid probate, and ensure smooth wealth transfer. Covers everything from planning to funding.",
     "category": "life-legal",
-    "price": "3.99",
-    "stripe": "https://buy.stripe.com/00w8wObfv1b90w15Dj3gk0E",
+    "created": "2026-04-20T01:27:48.055Z",
+    "desc": "Learn to create your own trust to protect assets, avoid probate, and ensure smooth wealth transfer. Covers everything from planning to funding.",
+    "id": 1776648468055,
     "pdf": "https://www.dropbox.com/scl/fi/fmhtg7l1q5fbaoibp7ddt/how-to-start-your-own-trust.pdf?rlkey=jrh04rdqua06qvzkni97y5lkk&dl=1",
+    "price": "3.99",
+    "status": "active",
+    "stripe": "https://buy.stripe.com/00w8wObfv1b90w15Dj3gk0E",
     "tags": [
       "estate planning",
       "trusts",
@@ -363,7 +364,30 @@
       "probate avoidance",
       "legal documents"
     ],
+    "title": "How to Start Your Own Trust"
+  },
+  {
+    "id": 1776651712103,
+    "title": "How to Write Your Own Non-Disclosure Agreement (NDA)",
+    "desc": "Complete guide to writing professional NDAs with customizable template. Protect confidential information without expensive legal fees.",
+    "category": "business-organizations",
+    "price": "3.99",
+    "stripe": "https://buy.stripe.com/3cIeVcfvL6vtceJ3vb3gk0F",
+    "pdf": "https://www.dropbox.com/scl/fi/zs5280ae6mifdt6qy50te/how-to-write-your-own-non-disclosure-agreement-nda.pdf?rlkey=38cyogitlb4secvdlrmawl525&dl=1",
+    "tags": [
+      "nda",
+      "confidentiality-agreement",
+      "legal-contracts",
+      "business-protection",
+      "legal-documents"
+    ],
     "status": "active",
-    "created": "2026-04-20T01:27:48.055Z"
+    "created": "2026-04-20T02:21:52.103Z",
+    "extraFiles": [
+      {
+        "filename": "customizable-nda-template.docx",
+        "url": "https://www.dropbox.com/scl/fi/xrkoil1r3kmkuaer632vo/customizable-nda-template.docx?rlkey=p13phlrtgoi0a2yciavq5hskn&dl=1"
+      }
+    ]
   }
 ]
