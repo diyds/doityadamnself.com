@@ -785,5 +785,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T22:29:03.492Z"
+  },
+  {
+    "id": 1776983574520,
+    "title": "How to Get a Birth Certificate Copy",
+    "desc": "Complete guide to obtaining certified copies of birth certificates from any state. Covers all application methods and requirements.",
+    "category": "paperwork-filings",
+    "price": "2.99",
+    "stripe": "https://buy.stripe.com/00wfZggzP3jh2E9c1H3gk11",
+    "pdf": "https://www.dropbox.com/scl/fi/lnntkerrc59n0skqjgxw2/how-to-get-a-birth-certificate-copy.pdf?rlkey=6wqhrh5i6m0aqd0zm0zvhmz1p&dl=1",
+    "tags": [
+      "birth certificate",
+      "vital records",
+      "official documents",
+      "government forms",
+      "identification"
+    ],
+    "status": "active",
+    "created": "2026-04-23T22:32:54.520Z"
   }
 ]
