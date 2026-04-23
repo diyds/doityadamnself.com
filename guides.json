@@ -599,5 +599,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T15:54:29.523Z"
+  },
+  {
+    "id": 1776959815761,
+    "title": "How to Get a Business License in California",
+    "desc": "Complete step-by-step guide to obtaining all required business licenses in California. Covers state, county, and city requirements with resources.",
+    "category": "business-organizations",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/fZu6oG3N33jh5Ql7Lr3gk0R",
+    "pdf": "https://www.dropbox.com/scl/fi/tc70wmeflpptpsv4ae4sc/how-to-get-a-business-license-in-california.pdf?rlkey=ocle05y87l74vbtalu97d31eb&dl=1",
+    "tags": [
+      "california",
+      "business-license",
+      "permits",
+      "small-business",
+      "legal-compliance"
+    ],
+    "status": "active",
+    "created": "2026-04-23T15:56:55.761Z"
   }
 ]
