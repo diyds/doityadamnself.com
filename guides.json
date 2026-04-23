@@ -467,5 +467,29 @@
         "url": "https://www.dropbox.com/scl/fi/ve35tn0nji1e0zcqblx89/demand-letter-template.docx?rlkey=h0ch6jwi85l16cpq9do8siq2x&dl=1"
       }
     ]
+  },
+  {
+    "id": 1776958574171,
+    "title": "How to Write a Business Plan",
+    "desc": "Complete guide to writing a professional business plan that secures funding and guides your success. Includes comprehensive template.",
+    "category": "business-organizations",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/dRmcN43N3g633Ide9P3gk0K",
+    "pdf": "https://www.dropbox.com/scl/fi/zlgbje18lclb0iyj354qg/how-to-write-a-business-plan.pdf?rlkey=6jro2ypod9xxqvbb1142llsay&dl=1",
+    "tags": [
+      "business-plan",
+      "entrepreneurship",
+      "startup",
+      "funding",
+      "business-strategy"
+    ],
+    "status": "active",
+    "created": "2026-04-23T15:36:14.171Z",
+    "extraFiles": [
+      {
+        "filename": "business-plan-template.docx",
+        "url": "https://www.dropbox.com/scl/fi/ddha34lu4jzm0h3w5jn23/business-plan-template.docx?rlkey=c3qh9tg6u5gzprs0c78fedwag&dl=1"
+      }
+    ]
   }
 ]
