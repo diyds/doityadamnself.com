@@ -545,5 +545,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T15:44:55.886Z"
+  },
+  {
+    "id": 1776959223238,
+    "title": "How to Get a CDL in California",
+    "desc": "Complete step-by-step guide to getting your Commercial Driver's License in California. Covers requirements, tests, costs, and career opportunities.",
+    "category": "transportation-logistics",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/14A8wO1EV8DB4Mh6Hn3gk0O",
+    "pdf": "https://www.dropbox.com/scl/fi/gni6le0kaom6dii7tqih9/how-to-get-a-cdl-in-california.pdf?rlkey=z8ss0ohfsd5yhrgpclvk7ax2t&dl=1",
+    "tags": [
+      "CDL",
+      "commercial driving",
+      "California DMV",
+      "trucking career",
+      "DOT physical"
+    ],
+    "status": "active",
+    "created": "2026-04-23T15:47:03.238Z"
   }
 ]
