@@ -731,5 +731,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T21:51:30.924Z"
+  },
+  {
+    "id": 1776981558578,
+    "title": "How to Get Your Hazmat Endorsement",
+    "desc": "Complete step-by-step guide to obtaining your CDL Hazmat endorsement, including TSA security clearance, study tips, and test preparation.",
+    "category": "transportation-logistics",
+    "price": "3.99",
+    "stripe": "https://buy.stripe.com/6oUeVcgzP1b9guZ5Dj3gk0Y",
+    "pdf": "https://www.dropbox.com/scl/fi/0n1k3gafajaa2z6q8sm4r/how-to-get-your-hazmat-endorsement.pdf?rlkey=na85nx0auonkd3xtvrghp3txm&dl=1",
+    "tags": [
+      "cdl",
+      "hazmat",
+      "commercial-driving",
+      "tsa-clearance",
+      "transportation"
+    ],
+    "status": "active",
+    "created": "2026-04-23T21:59:18.578Z"
   }
 ]
