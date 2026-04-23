@@ -713,5 +713,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T21:48:57.246Z"
+  },
+  {
+    "id": 1776981090924,
+    "title": "How to Import a Car into the United States",
+    "desc": "Complete guide to importing cars into the US. Covers EPA/NHTSA compliance, customs clearance, and state registration.",
+    "category": "transportation-logistics",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/eVq14m3N35rp1A52r73gk0X",
+    "pdf": "https://www.dropbox.com/scl/fi/qwg56hu2uyg33ov2n0ww6/how-to-import-a-car-into-the-united-states.pdf?rlkey=e0xh9fpfkqqjyhsiwb2qydkfz&dl=1",
+    "tags": [
+      "car import",
+      "vehicle import",
+      "customs",
+      "EPA compliance",
+      "NHTSA"
+    ],
+    "status": "active",
+    "created": "2026-04-23T21:51:30.924Z"
   }
 ]
