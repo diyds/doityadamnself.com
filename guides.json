@@ -407,5 +407,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T15:21:02.534Z"
+  },
+  {
+    "id": 1776957811101,
+    "title": "How to File a Small Claims Court Case in California",
+    "desc": "Complete guide to filing and winning small claims cases in California. Covers forms, service, court procedures, and judgment collection.",
+    "category": "life-legal",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/6oUcN41EV7zx5Ql8Pv3gk0H",
+    "pdf": "https://www.dropbox.com/scl/fi/ylz8rcnpef6j0ckckoxju/how-to-file-a-small-claims-court-case-in-california.pdf?rlkey=wexbk5yhzhyzsokitk4qng79z&dl=1",
+    "tags": [
+      "small-claims",
+      "california-court",
+      "legal-dispute",
+      "lawsuit",
+      "judgment-collection"
+    ],
+    "status": "active",
+    "created": "2026-04-23T15:23:31.101Z"
   }
 ]
