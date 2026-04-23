@@ -443,5 +443,29 @@
     ],
     "status": "active",
     "created": "2026-04-23T15:26:11.550Z"
+  },
+  {
+    "id": 1776958356411,
+    "title": "How to Write a Demand Letter",
+    "desc": "Master the art of writing effective demand letters to resolve disputes and collect what you're owed without costly litigation. Includes a customizable demand letter template.",
+    "category": "life-legal",
+    "price": "3.99",
+    "stripe": "https://buy.stripe.com/28EeVc4R72fd92x1n33gk0J",
+    "pdf": "https://www.dropbox.com/scl/fi/xtlhdiy10cplemzm6h65i/how-to-write-a-demand-letter.pdf?rlkey=4to13drg47vyuv3f6i55g9bhc&dl=1",
+    "tags": [
+      "demand letter",
+      "debt collection",
+      "legal writing",
+      "dispute resolution",
+      "contract breach"
+    ],
+    "status": "active",
+    "created": "2026-04-23T15:32:36.411Z",
+    "extraFiles": [
+      {
+        "filename": "demand-letter-template.docx",
+        "url": "https://www.dropbox.com/scl/fi/ve35tn0nji1e0zcqblx89/demand-letter-template.docx?rlkey=h0ch6jwi85l16cpq9do8siq2x&dl=1"
+      }
+    ]
   }
 ]
