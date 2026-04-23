@@ -425,5 +425,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T15:23:31.101Z"
+  },
+  {
+    "id": 1776957971550,
+    "title": "How to Get a Passport for the First Time",
+    "desc": "Complete first-time passport application guide with documents, photos, appointments, and processing. Avoid common mistakes and delays.",
+    "category": "paperwork-filings",
+    "price": "3.99",
+    "stripe": "https://buy.stripe.com/dRmaEW97ng63emR5Dj3gk0I",
+    "pdf": "https://www.dropbox.com/scl/fi/tvk2thkj3ae1ga1i1a17h/how-to-get-a-passport-for-the-first-time.pdf?rlkey=apq1pw6mbiqeudpmxwkcj9fr7&dl=1",
+    "tags": [
+      "passport",
+      "travel documents",
+      "first time passport",
+      "international travel",
+      "government forms"
+    ],
+    "status": "active",
+    "created": "2026-04-23T15:26:11.550Z"
   }
 ]
