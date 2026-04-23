@@ -367,13 +367,20 @@
     "title": "How to Start Your Own Trust"
   },
   {
-    "id": 1776651712103,
-    "title": "How to Write Your Own Non-Disclosure Agreement (NDA)",
-    "desc": "Complete guide to writing professional NDAs with customizable template. Protect confidential information without expensive legal fees.",
     "category": "business-organizations",
-    "price": "3.99",
-    "stripe": "https://buy.stripe.com/3cIeVcfvL6vtceJ3vb3gk0F",
+    "created": "2026-04-20T02:21:52.103Z",
+    "desc": "Complete guide to writing professional NDAs with customizable template. Protect confidential information without expensive legal fees.",
+    "extraFiles": [
+      {
+        "filename": "customizable-nda-template.docx",
+        "url": "https://www.dropbox.com/scl/fi/xrkoil1r3kmkuaer632vo/customizable-nda-template.docx?rlkey=p13phlrtgoi0a2yciavq5hskn&dl=1"
+      }
+    ],
+    "id": 1776651712103,
     "pdf": "https://www.dropbox.com/scl/fi/zs5280ae6mifdt6qy50te/how-to-write-your-own-non-disclosure-agreement-nda.pdf?rlkey=38cyogitlb4secvdlrmawl525&dl=1",
+    "price": "3.99",
+    "status": "active",
+    "stripe": "https://buy.stripe.com/3cIeVcfvL6vtceJ3vb3gk0F",
     "tags": [
       "nda",
       "confidentiality-agreement",
@@ -381,13 +388,24 @@
       "business-protection",
       "legal-documents"
     ],
+    "title": "How to Write Your Own Non-Disclosure Agreement (NDA)"
+  },
+  {
+    "id": 1776957662534,
+    "title": "How to Freeze Your Credit",
+    "desc": "Complete guide to freezing credit with all three bureaus. Protect against identity theft while maintaining credit access flexibility.",
+    "category": "money-credit",
+    "price": "2.99",
+    "stripe": "https://buy.stripe.com/5kQfZgabrbPN7Yt6Hn3gk0G",
+    "pdf": "https://www.dropbox.com/scl/fi/nbmpxgkil1xr4jenjbh4p/how-to-freeze-your-credit.pdf?rlkey=g9x8gs2jy2r942jemkyiiltny&dl=1",
+    "tags": [
+      "credit freeze",
+      "identity theft protection",
+      "credit security",
+      "financial protection",
+      "credit monitoring"
+    ],
     "status": "active",
-    "created": "2026-04-20T02:21:52.103Z",
-    "extraFiles": [
-      {
-        "filename": "customizable-nda-template.docx",
-        "url": "https://www.dropbox.com/scl/fi/xrkoil1r3kmkuaer632vo/customizable-nda-template.docx?rlkey=p13phlrtgoi0a2yciavq5hskn&dl=1"
-      }
-    ]
+    "created": "2026-04-23T15:21:02.534Z"
   }
 ]
