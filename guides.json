@@ -695,5 +695,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T21:41:52.864Z"
+  },
+  {
+    "id": 1776980937246,
+    "title": "How to Ship a Car Across the Country",
+    "desc": "Complete guide to shipping your car across the country safely and cost-effectively. Covers carrier selection, preparation, costs, and avoiding common mistakes.",
+    "category": "transportation-logistics",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/8x25kC1EV9HF92xaXD3gk0W",
+    "pdf": "https://www.dropbox.com/scl/fi/dzawnf0vjlbimd5co3adu/how-to-ship-a-car-across-the-country.pdf?rlkey=isuw4wqgom9fhuzwx2t82wnkj&dl=1",
+    "tags": [
+      "car shipping",
+      "auto transport",
+      "vehicle relocation",
+      "cross country moving",
+      "transportation logistics"
+    ],
+    "status": "active",
+    "created": "2026-04-23T21:48:57.246Z"
   }
 ]
