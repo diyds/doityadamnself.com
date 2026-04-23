@@ -527,5 +527,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T15:42:14.793Z"
+  },
+  {
+    "id": 1776959095886,
+    "title": "How to Apply for FAFSA (Free Application for Federal Student Aid)",
+    "desc": "Complete step-by-step guide to applying for FAFSA and maximizing federal financial aid. Covers documentation, common mistakes, and verification.",
+    "category": "money-credit",
+    "price": "3.99",
+    "stripe": "https://buy.stripe.com/00w6oG83jbPNfqV0iZ3gk0N",
+    "pdf": "https://www.dropbox.com/scl/fi/wetynrbsycs2nkq7jtsem/how-to-apply-for-fafsa-free-application-for-federal-student-aid.pdf?rlkey=o97a0y5cdmxef0nafet9b53vm&dl=1",
+    "tags": [
+      "FAFSA",
+      "financial aid",
+      "college funding",
+      "federal grants",
+      "student loans"
+    ],
+    "status": "active",
+    "created": "2026-04-23T15:44:55.886Z"
   }
 ]
