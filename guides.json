@@ -677,5 +677,23 @@
         "url": "https://www.dropbox.com/scl/fi/m31p2m4sarvqlgafb1q4f/trucking-business-startup-checklist.docx?rlkey=ctvxia8bv7ku8k0m6a33a1jh1&dl=1"
       }
     ]
+  },
+  {
+    "id": 1776980512864,
+    "title": "How to Apply for a TWIC Card (Transportation Worker Identification Credential)",
+    "desc": "Complete step-by-step guide to applying for a TWIC card. Covers eligibility, documentation, application process, and troubleshooting.",
+    "category": "paperwork-filings",
+    "price": "3.99",
+    "stripe": "https://buy.stripe.com/4gM00i97n1b9fqVc1H3gk0V",
+    "pdf": "https://www.dropbox.com/scl/fi/moumq1ldse02yuk0p5c5j/how-to-apply-for-a-twic-card-transportation-worker-identification-credential.pdf?rlkey=vnr5jhoxvn4hsttly2rxl2t1j&dl=1",
+    "tags": [
+      "twic-card",
+      "tsa-application",
+      "maritime-security",
+      "transportation-worker",
+      "background-check"
+    ],
+    "status": "active",
+    "created": "2026-04-23T21:41:52.864Z"
   }
 ]
