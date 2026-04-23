@@ -821,5 +821,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T22:35:14.078Z"
+  },
+  {
+    "id": 1776983926292,
+    "title": "How to Apply for US Citizenship Through Naturalization",
+    "desc": "Complete step-by-step guide to U.S. citizenship application including forms, tests, and interview preparation. Navigate the entire naturalization process.",
+    "category": "life-legal",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/dRmaEW2IZcTR7Yt3vb3gk13",
+    "pdf": "https://www.dropbox.com/scl/fi/p7sms7vigotrlngo1lsoi/how-to-apply-for-us-citizenship-through-naturalization.pdf?rlkey=pdhvsd3f4paqh5ozmu8u6761b&dl=1",
+    "tags": [
+      "citizenship",
+      "naturalization",
+      "immigration",
+      "N-400",
+      "civics-test"
+    ],
+    "status": "active",
+    "created": "2026-04-23T22:38:46.292Z"
   }
 ]
