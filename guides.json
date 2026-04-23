@@ -581,5 +581,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T15:52:07.621Z"
+  },
+  {
+    "id": 1776959669523,
+    "title": "How to File for Bankruptcy Without a Lawyer",
+    "desc": "Complete step-by-step guide to filing Chapter 7 or Chapter 13 bankruptcy without an attorney. Includes all forms, procedures, and tips.",
+    "category": "life-legal",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/eVq00i4R7bPN0w13vb3gk0Q",
+    "pdf": "https://www.dropbox.com/scl/fi/8m6s3aqyhv8otum6vrxtw/how-to-file-for-bankruptcy-without-a-lawyer.pdf?rlkey=l572sefr2qrw9bd64in3ysmbk&dl=1",
+    "tags": [
+      "bankruptcy",
+      "debt relief",
+      "legal forms",
+      "financial planning",
+      "pro se filing"
+    ],
+    "status": "active",
+    "created": "2026-04-23T15:54:29.523Z"
   }
 ]
