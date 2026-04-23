@@ -653,5 +653,29 @@
     ],
     "status": "active",
     "created": "2026-04-23T16:01:11.763Z"
+  },
+  {
+    "id": 1776968530420,
+    "title": "How to Start a Trucking Business",
+    "desc": "Complete guide to starting a trucking business covering licensing, insurance, equipment, and operations. Includes startup checklist template.",
+    "category": "transportation-logistics",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/aFa3cufvL4nl3Ide9P3gk0U",
+    "pdf": "https://www.dropbox.com/scl/fi/qaqseso0wnsae11krn9xf/how-to-start-a-trucking-business.pdf?rlkey=t7ymluztg99cku66rktdsa52n&dl=1",
+    "tags": [
+      "trucking business",
+      "DOT compliance",
+      "commercial trucking",
+      "freight hauling",
+      "transportation startup"
+    ],
+    "status": "active",
+    "created": "2026-04-23T18:22:10.420Z",
+    "extraFiles": [
+      {
+        "filename": "trucking-business-startup-checklist.docx",
+        "url": "https://www.dropbox.com/scl/fi/m31p2m4sarvqlgafb1q4f/trucking-business-startup-checklist.docx?rlkey=ctvxia8bv7ku8k0m6a33a1jh1&dl=1"
+      }
+    ]
   }
 ]
