@@ -563,5 +563,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T15:47:03.238Z"
+  },
+  {
+    "id": 1776959527621,
+    "title": "How to Expunge a Criminal Record in California",
+    "desc": "Complete guide to expunging criminal records in California. Covers eligibility, forms, procedures, and county-specific requirements.",
+    "category": "life-legal",
+    "price": "3.99",
+    "stripe": "https://buy.stripe.com/9B66oGerHbPN7Yt4zf3gk0P",
+    "pdf": "https://www.dropbox.com/scl/fi/y2f2nq57613u55rmsf2q7/how-to-expunge-a-criminal-record-in-california.pdf?rlkey=5gco5m1a7rwcq9nk5mp5sp8ej&dl=1",
+    "tags": [
+      "expungement",
+      "criminal record",
+      "california law",
+      "court forms",
+      "legal relief"
+    ],
+    "status": "active",
+    "created": "2026-04-23T15:52:07.621Z"
   }
 ]
