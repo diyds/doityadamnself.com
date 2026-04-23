@@ -749,5 +749,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T21:59:18.578Z"
+  },
+  {
+    "id": 1776981655827,
+    "title": "How to Get a Motorcycle License in California",
+    "desc": "Complete guide to getting your California motorcycle license, from permits to skills tests. Covers all requirements and fees.",
+    "category": "transportation-logistics",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/eVqaEW5Vb8DB1A58Pv3gk0Z",
+    "pdf": "https://www.dropbox.com/scl/fi/lulgcgsdx12q3g84l8k5a/how-to-get-a-motorcycle-license-in-california.pdf?rlkey=kqpk3llw4u98ssz4b2s7yjbxq&dl=1",
+    "tags": [
+      "motorcycle",
+      "license",
+      "california",
+      "dmv",
+      "driving"
+    ],
+    "status": "active",
+    "created": "2026-04-23T22:00:55.827Z"
   }
 ]
