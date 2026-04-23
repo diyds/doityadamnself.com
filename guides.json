@@ -857,5 +857,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T22:44:04.702Z"
+  },
+  {
+    "id": 1776984412961,
+    "title": "How to Apply for Disability Benefits (SSDI)",
+    "desc": "Complete guide to applying for Social Security Disability Insurance with step-by-step process, required documentation, and appeal strategies.",
+    "category": "life-legal",
+    "price": "3.99",
+    "stripe": "https://buy.stripe.com/28E14mabr3jh4Mh2r73gk15",
+    "pdf": "https://www.dropbox.com/scl/fi/kvuyrsv68ynt3yv2kfuxo/how-to-apply-for-disability-benefits-ssdi.pdf?rlkey=mbhv4erotti5fiqqdxvf3m81v&dl=1",
+    "tags": [
+      "SSDI",
+      "disability benefits",
+      "social security",
+      "government benefits",
+      "appeals process"
+    ],
+    "status": "active",
+    "created": "2026-04-23T22:46:52.961Z"
   }
 ]
