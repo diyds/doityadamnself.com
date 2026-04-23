@@ -509,5 +509,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T15:38:31.621Z"
+  },
+  {
+    "id": 1776958934793,
+    "title": "How to Apply for Unemployment in California",
+    "desc": "Complete guide to applying for California unemployment benefits. Navigate EDD requirements, avoid delays, maximize payments.",
+    "category": "money-credit",
+    "price": "3.99",
+    "stripe": "https://buy.stripe.com/5kQdR897n7zxbaF7Lr3gk0M",
+    "pdf": "https://www.dropbox.com/scl/fi/zkx87aidvcjecoksgtizj/how-to-apply-for-unemployment-in-california.pdf?rlkey=ht856wpfntmk24e72nqr87cnk&dl=1",
+    "tags": [
+      "unemployment",
+      "california",
+      "edd",
+      "benefits",
+      "job-loss"
+    ],
+    "status": "active",
+    "created": "2026-04-23T15:42:14.793Z"
   }
 ]
