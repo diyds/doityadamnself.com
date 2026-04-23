@@ -617,5 +617,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T15:56:55.761Z"
+  },
+  {
+    "id": 1776959946029,
+    "title": "How to Apply for Social Security Benefits",
+    "desc": "Complete guide to applying for Social Security benefits including retirement, disability, and survivor benefits with step-by-step instructions.",
+    "category": "money-credit",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/7sYeVc97ndXV7Yt6Hn3gk0S",
+    "pdf": "https://www.dropbox.com/scl/fi/oh7g4mdhfe360ksdjaoql/how-to-apply-for-social-security-benefits.pdf?rlkey=4bwkwk0yif7pqbwe5yvqd2et5&dl=1",
+    "tags": [
+      "social security",
+      "retirement benefits",
+      "disability benefits",
+      "survivor benefits",
+      "government benefits"
+    ],
+    "status": "active",
+    "created": "2026-04-23T15:59:06.029Z"
   }
 ]
