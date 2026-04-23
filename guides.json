@@ -767,5 +767,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T22:00:55.827Z"
+  },
+  {
+    "id": 1776983343492,
+    "title": "How to Apply for a Social Security Card",
+    "desc": "Complete step-by-step guide to applying for original, replacement, or corrected Social Security cards. Covers all document requirements and processes.",
+    "category": "paperwork-filings",
+    "price": "3.99",
+    "stripe": "https://buy.stripe.com/7sYcN4cjzbPN5Ql5Dj3gk10",
+    "pdf": "https://www.dropbox.com/scl/fi/mma6tj78muwldbu8m2ess/how-to-apply-for-a-social-security-card.pdf?rlkey=gc1fzx635o04jns4s5mqv5m5a&dl=1",
+    "tags": [
+      "social security card",
+      "SSN application",
+      "government documents",
+      "identity documents",
+      "SSA forms"
+    ],
+    "status": "active",
+    "created": "2026-04-23T22:29:03.492Z"
   }
 ]
