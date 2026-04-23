@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Thank You — DoItYaDamnSelf.com</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+<!-- Google tag (gtag.js) - conversion tracking placeholder -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=REPLACE_WITH_YOUR_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'REPLACE_WITH_YOUR_ID');
+  // Fire purchase conversion event
+  gtag('event', 'conversion', {
+    'send_to': 'REPLACE_WITH_YOUR_CONVERSION_ID',
+    'value': 3.99,
+    'currency': 'USD'
+  });
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:#0a0a0a;color:#eee;font-family:'DM Sans',sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;}
+.card{background:#111;border:1px solid #222;border-radius:12px;padding:48px 40px;max-width:560px;width:100%;text-align:center;}
+.checkmark{width:64px;height:64px;background:#1a3a1a;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 24px;border:2px solid #2a6;}
+.checkmark svg{width:32px;height:32px;stroke:#4caf50;stroke-width:3;fill:none;}
+.logo{font-family:'Bebas Neue',sans-serif;font-size:1.2rem;color:#c5e835;letter-spacing:3px;margin-bottom:24px;}
+h1{font-family:'Bebas Neue',sans-serif;font-size:2.2rem;color:#fff;letter-spacing:2px;margin-bottom:12px;}
+.subtitle{font-size:15px;color:#999;line-height:1.6;margin-bottom:32px;}
+.email-note{background:#1a2a00;border:1px solid #2a4a00;border-radius:8px;padding:16px 20px;margin-bottom:32px;font-size:13px;color:#c5e835;line-height:1.6;}
+.email-note strong{display:block;margin-bottom:4px;font-size:14px;}
+.btn{display:inline-block;background:#c5e835;color:#111;font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;padding:14px 32px;border-radius:6px;text-decoration:none;transition:background .2s;}
+.btn:hover{background:#d4f040;}
+.footer{margin-top:40px;font-size:11px;color:#444;text-align:center;}
+.footer a{color:#666;text-decoration:none;}
+.footer a:hover{color:#999;}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="logo">DOITYADAMNSELF.COM</div>
+
+  <div class="checkmark">
+    <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+  </div>
+
+  <h1>You're All Set!</h1>
+  <p class="subtitle">Your purchase was successful. Your step-by-step guide is on its way to your inbox right now.</p>
+
+  <div class="email-note">
+    <strong>📧 Check Your Email</strong>
+    Your guide has been sent to the email address you used at checkout. Check your spam folder if you don't see it within a few minutes.
+  </div>
+
+  <a href="https://doityadamnself.com" class="btn">Browse More Guides</a>
+</div>
+
+<div class="footer">
+  <p>© DoItYaDamnSelf.com — Questions? <a href="mailto:donotreply@doityadamnself.com">Contact Us</a></p>
+</div>
+
+</body>
+</html>
