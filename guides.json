@@ -803,5 +803,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T22:32:54.520Z"
+  },
+  {
+    "id": 1776983714078,
+    "title": "How to Apply for a Green Card",
+    "desc": "Complete step-by-step guide to applying for a U.S. Green Card. Covers all pathways, required documents, and process details.",
+    "category": "life-legal",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/7sYbJ0abr07592x3vb3gk12",
+    "pdf": "https://www.dropbox.com/scl/fi/jv4yz8h1xlt1azijkhmv1/how-to-apply-for-a-green-card.pdf?rlkey=898aog5dyr7634cq1od57w8b9&dl=1",
+    "tags": [
+      "green card",
+      "immigration",
+      "permanent residence",
+      "USCIS",
+      "visa"
+    ],
+    "status": "active",
+    "created": "2026-04-23T22:35:14.078Z"
   }
 ]
