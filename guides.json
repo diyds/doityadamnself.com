@@ -839,5 +839,23 @@
     ],
     "status": "active",
     "created": "2026-04-23T22:38:46.292Z"
+  },
+  {
+    "id": 1776984244702,
+    "title": "How to Get a Power of Attorney",
+    "desc": "Complete guide to obtaining a Power of Attorney. Learn types, requirements, execution steps, and common mistakes to avoid.",
+    "category": "life-legal",
+    "price": "4.99",
+    "stripe": "https://buy.stripe.com/bJe3cuabr5rp7Yt8Pv3gk14",
+    "pdf": "https://www.dropbox.com/scl/fi/ef6p6wfdwuh3c6zz9infc/how-to-get-a-power-of-attorney.pdf?rlkey=s18in9cnlh7sthwy8335txvcr&dl=1",
+    "tags": [
+      "power-of-attorney",
+      "legal-documents",
+      "estate-planning",
+      "agent-selection",
+      "notarization"
+    ],
+    "status": "active",
+    "created": "2026-04-23T22:44:04.702Z"
   }
 ]
